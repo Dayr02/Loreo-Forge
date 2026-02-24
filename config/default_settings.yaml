@@ -1,0 +1,72 @@
+application:
+  name: "Loreo Forge"
+  version: "1.0.0"
+  
+startup:
+  show_splash: true
+  check_updates: true
+  load_last_story: true
+  
+logging:
+  level: "INFO"
+  max_file_size_mb: 10
+  backup_count: 5
+
+# ENHANCED: AI Generation Settings
+ai:
+  default_model: "llama3.1:8b"
+  temperature: 0.7
+  
+  # INCREASED token limits for longer generation
+  max_tokens: 16384  # 16K tokens (was 8192)
+  context_window: 16384
+  
+  # Word count targets (INCREASED)
+  default_chapter_words: 5000  # was 3000
+  min_chapter_words: 1000
+  max_chapter_words: 15000
+  
+  # Short story generation
+  short_story_min: 500
+  short_story_max: 3000
+  
+  # Chapter parts generation
+  chapter_part_min: 500
+  chapter_part_max: 3000
+  
+  # Timeouts (already increased in settings.py)
+  short_story_timeout: 900  # 15 min
+  chapter_timeout: 1800  # 30 min
+  long_chapter_timeout: 3600  # 60 min
+  
+  # Streaming settings
+  enable_streaming: true
+  stream_chunk_size: 1
+  
+  # Context settings
+  max_characters_in_context: 15  # Increased from 10
+  max_locations_in_context: 10   # Increased from 5
+  recent_chapters_context: 5     # Increased from 3
+  
+generation:
+  # Default parameters
+  enable_auto_context: true
+  enable_manual_selection: true
+  save_generation_history: true
+  
+  # Chapter parts system
+  enable_chapter_parts: true
+  max_parts_per_chapter: 20
+  auto_merge_threshold: 3  # Auto-suggest merge after 3 parts
+  
+ui:
+  theme: "Obsidian Night"
+  font_family: "Segoe UI"
+  font_size: 12
+  auto_save: true
+  auto_save_interval: 5
+
+export:
+  default_format: "docx"
+  include_metadata: true
+  include_toc: true

@@ -1,0 +1,29 @@
+2026-01-21 17:34:24 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-21 17:34:24 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-21 17:34:25 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-21 17:34:25 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-21 17:34:29 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-21 17:34:29 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-21 21:12:01 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-21 21:12:01 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-21 21:12:01 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-21 21:12:01 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-21 21:12:05 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-21 21:12:06 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-21 21:17:12 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-21 21:17:12 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-21 21:17:12 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-21 21:17:12 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-21 21:17:16 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-21 21:17:16 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-21 22:00:40 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-21 22:00:40 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-21 22:00:40 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-21 22:00:40 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-21 22:00:44 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-21 22:00:44 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-21 23:41:43 - DatabaseManager - INFO - logger.py:67 - Logger initialized: DatabaseManager
+2026-01-21 23:41:43 - DatabaseManager - INFO - logger.py:118 - DatabaseManager initialized
+2026-01-21 23:41:43 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-21 23:41:43 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-21 23:41:45 - LoreoForge - ERROR - main.py:144 - Story manager initialization failed: 'DatabaseManager' object has no attribute 'fetch_all'

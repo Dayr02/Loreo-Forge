@@ -1,0 +1,148 @@
+2026-02-11 15:26:59 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 15:26:59 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 15:26:59 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 15:26:59 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 15:27:04 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 15:56:44 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 15:56:44 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 15:56:44 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 15:56:44 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 15:56:48 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:06:20 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:06:20 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:06:20 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:06:20 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:06:22 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:06:25 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:11:22 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:11:22 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:11:23 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:11:23 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:11:25 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:11:27 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:23:36 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:23:36 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:23:36 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:23:36 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:23:38 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:23:40 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:25:08 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:25:08 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:25:08 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:25:08 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:25:11 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:25:13 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:30:03 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:30:03 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:30:03 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:30:03 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:30:05 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:30:07 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:31:34 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:31:34 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:31:34 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:31:34 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:31:37 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:31:39 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:32:12 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:32:12 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:32:12 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:32:12 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:32:14 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:32:17 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:34:53 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:34:53 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:34:54 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:34:54 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:34:56 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:34:58 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:37:01 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:37:01 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:37:01 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:37:01 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:37:04 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:37:06 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:39:32 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:39:32 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:39:32 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:39:32 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:39:34 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:39:36 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:40:08 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:40:08 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:40:08 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:40:08 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:40:11 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:40:13 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:42:46 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:42:46 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:42:46 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:42:46 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:42:48 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:42:50 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:44:38 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:44:38 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:44:38 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:44:38 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:44:41 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:44:43 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:44:58 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:44:58 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:44:59 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:44:59 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:45:01 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:45:03 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 17:51:52 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 17:51:52 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 17:51:53 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 17:51:53 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 17:51:55 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 17:51:57 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:09:40 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:09:40 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:09:41 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:09:41 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:09:43 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:09:45 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:14:54 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:14:54 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:14:54 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:14:54 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:14:56 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:14:59 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:20:51 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:20:51 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:20:51 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:20:51 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:20:53 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:20:55 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:25:54 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:25:54 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:25:54 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:25:54 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:25:56 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:25:58 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:26:15 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:26:15 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:26:15 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:26:15 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:26:18 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:26:20 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:27:15 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:27:15 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:27:15 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:27:15 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:27:17 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:27:20 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 18:31:14 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 18:31:14 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 18:31:14 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 18:31:14 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 18:31:16 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 18:31:18 - LoreoForge - INFO - main.py:192 - Application initialized successfully
+2026-02-11 21:31:08 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-11 21:31:08 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-11 21:31:08 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-11 21:31:08 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-11 21:31:10 - LoreoForge - ERROR - main.py:148 - Migration check failed: 'already_updated'
+2026-02-11 21:31:12 - LoreoForge - INFO - main.py:192 - Application initialized successfully

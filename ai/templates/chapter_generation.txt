@@ -1,0 +1,96 @@
+You are a skilled novelist writing chapter {{ chapter_number }} of "{{ story_title }}", a {{ genre }} story.
+
+STORY CONTEXT:
+{{ story_synopsis if story_synopsis else "No synopsis provided yet." }}
+
+{% if arc_description %}
+CURRENT ARC:
+{{ arc_description }}
+{% endif %}
+
+{% if recent_chapters_summary %}
+RECENT CHAPTERS SUMMARY:
+{{ recent_chapters_summary }}
+{% endif %}
+
+{% if character_details %}
+ACTIVE CHARACTERS:
+{{ character_details }}
+{% endif %}
+
+{% if location_description %}
+CURRENT LOCATION:
+{{ location_description }}
+{% endif %}
+
+{% if power_system_rules %}
+POWER SYSTEM RULES:
+{{ power_system_rules }}
+{% endif %}
+
+{% if item_details %}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPORTANT ITEMS & ARTIFACTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{ item_details }}
+
+CRITICAL: These items have specific properties and powers. Use them EXACTLY as described above. Do not contradict their established properties or powers.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{% endif %}
+
+{% if timeline_state %}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TIMELINE & CONTINUITY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{ timeline_state }}
+
+IMPORTANT: Maintain continuity with the above character states, conflicts, and unresolved events.
+{% endif %}
+
+{% if continuity_warnings %}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTINUITY WARNINGS - ADDRESS THESE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{% for warning in continuity_warnings %}
+⚠️ {{ warning }}
+{% endfor %}
+{% endif %}
+
+{% if story_progression %}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STORY PROGRESSION FOR THIS CHAPTER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{ story_progression }}
+
+This is your PRIMARY DIRECTIVE for this chapter. Follow this progression closely.
+{% endif %}
+
+GENERATION TYPE: {{ generation_instruction }}
+
+CHAPTER REQUIREMENTS:
+- Chapter number: {{ chapter_number }}
+- Target word count: {{ target_word_count }} words
+{% if pov_character %}
+- Point of view: {{ pov_character }}
+{% endif %}
+{% if mood %}
+- Mood/Tone: {{ mood }}
+{% endif %}
+{% if required_plot_points %}
+- Must include: {{ required_plot_points }}
+{% endif %}
+
+{% if style_guidelines %}
+WRITING STYLE GUIDELINES:
+{{ style_guidelines }}
+{% endif %}
+
+{% if previous_chapter_ending %}
+PREVIOUS CHAPTER ENDED WITH:
+{{ previous_chapter_ending | truncate_words(100) }}
+{% endif %}
+
+Now write chapter {{ chapter_number }}. Create vivid, immersive prose with strong character voices and narrative momentum. Ensure consistency with established lore, character personalities, and world rules. Write approximately {{ target_word_count }} words.
+
+Begin the chapter now:

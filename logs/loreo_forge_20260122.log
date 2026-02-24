@@ -1,0 +1,5 @@
+2026-01-22 23:23:47 - DatabaseManager - INFO - logger.py:67 - Logger initialized: DatabaseManager
+2026-01-22 23:23:47 - DatabaseManager - INFO - logger.py:118 - DatabaseManager initialized
+2026-01-22 23:23:47 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-22 23:23:47 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-22 23:23:50 - LoreoForge - ERROR - main.py:144 - Story manager initialization failed: 'DatabaseManager' object has no attribute 'fetch_all'

@@ -1,0 +1,47 @@
+You are a world-building expert creating detailed lore for "{{ story_title }}".
+
+ELEMENT TO DEVELOP: {{ element_name }} ({{ element_type }})
+
+STORY SETTING:
+{{ story_setting if story_setting else "No setting information provided." }}
+
+{% if existing_elements %}
+EXISTING WORLD ELEMENTS:
+{{ existing_elements }}
+{% endif %}
+
+{% if requirements %}
+SPECIFIC REQUIREMENTS:
+{{ requirements }}
+{% endif %}
+
+Generate comprehensive details for this {{ element_type }} including:
+
+1. **Physical Description & Atmosphere**
+   - Sensory details (sight, sound, smell, feel)
+   - Unique characteristics
+   - Scale and scope
+
+2. **Historical Significance**
+   - Origin and creation
+   - Major events associated with it
+   - Evolution over time
+
+3. **Cultural & Social Aspects**
+   - How people interact with it
+   - Beliefs or traditions surrounding it
+   - Social significance
+
+4. **Connections & Relationships**
+   - Links to other locations or elements
+   - Dependencies and interactions
+   - Political or economic ties
+
+5. **Potential Story Hooks**
+   - Conflicts or tensions
+   - Mysteries or secrets
+   - Opportunities for character development
+
+Ensure all details are internally consistent and fit seamlessly with the established world.
+
+Detailed world-building:

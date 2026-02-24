@@ -1,0 +1,54 @@
+2026-01-18 02:39:58 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 02:39:58 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 02:39:58 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 02:39:58 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 02:40:03 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 02:40:03 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 02:42:26 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 02:42:26 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 02:42:26 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 02:42:26 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 02:42:30 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 02:42:30 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 02:43:02 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 02:43:02 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 02:43:02 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 02:43:02 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 02:43:06 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 02:43:06 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 03:10:49 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 03:10:49 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 03:10:49 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 03:10:49 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 03:10:53 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 03:10:53 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 03:38:29 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 03:38:29 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 03:38:29 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 03:38:29 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 03:38:33 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 03:38:33 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 03:45:23 - ThemeEngine - INFO - logger.py:67 - Logger initialized: ThemeEngine
+2026-01-18 03:45:23 - ThemeEngine - INFO - theme_engine.py:165 - Registered 4 built-in themes
+2026-01-18 03:45:23 - ThemeEngine - INFO - theme_engine.py:72 - ThemeEngine initialized
+2026-01-18 04:03:40 - ThemeEngine - INFO - logger.py:67 - Logger initialized: ThemeEngine
+2026-01-18 04:03:40 - ThemeEngine - INFO - theme_engine.py:165 - Registered 4 built-in themes
+2026-01-18 04:03:40 - ThemeEngine - INFO - theme_engine.py:72 - ThemeEngine initialized
+2026-01-18 04:04:04 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 04:04:04 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 04:04:04 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 04:04:04 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 04:04:08 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 04:04:09 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 04:27:35 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 04:27:35 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 04:27:35 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 04:27:35 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 04:27:39 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 04:27:39 - LoreoForge - INFO - main.py:149 - Application initialized successfully
+2026-01-18 04:29:10 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
+2026-01-18 04:29:10 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
+2026-01-18 04:29:10 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-18 04:29:10 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
+2026-01-18 04:29:14 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
+2026-01-18 04:29:14 - LoreoForge - INFO - main.py:149 - Application initialized successfully

@@ -1,0 +1,29 @@
+2026-01-24 02:22:36 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 02:22:36 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 02:35:46 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 02:35:46 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 17:55:39 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 17:55:39 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 17:55:40 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-24 17:55:40 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-24 19:11:32 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 19:11:32 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 19:11:32 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-24 19:11:32 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-24 19:11:35 - DatabaseSchema - INFO - logger.py:118 - Story database schema created successfully
+2026-01-24 22:12:36 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 22:12:36 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 22:12:37 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-24 22:12:37 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-24 22:12:41 - LoreoForge - INFO - main.py:171 - Application initialized successfully
+2026-01-24 22:13:32 - DatabaseSchema - INFO - logger.py:118 - Story database schema created successfully
+2026-01-24 22:22:44 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 22:22:44 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 22:22:45 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-24 22:22:45 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-24 22:22:49 - LoreoForge - INFO - main.py:171 - Application initialized successfully
+2026-01-24 22:41:04 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-01-24 22:41:04 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-01-24 22:41:04 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-01-24 22:41:04 - LoreoForge - INFO - main.py:96 - Starting Loreo Forge application
+2026-01-24 22:41:08 - LoreoForge - INFO - main.py:171 - Application initialized successfully

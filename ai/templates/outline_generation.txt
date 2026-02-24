@@ -1,0 +1,43 @@
+You are creating an outline for chapter {{ chapter_number }} of "{{ story_title }}".
+
+STORY CONTEXT:
+{{ story_synopsis if story_synopsis else "No synopsis provided." }}
+
+{% if arc_description %}
+CURRENT ARC:
+{{ arc_description }}
+{% endif %}
+
+{% if recent_chapters_summary %}
+RECENT EVENTS:
+{{ recent_chapters_summary | truncate_words(200) }}
+{% endif %}
+
+TARGET: {{ target_word_count }} words
+
+Create a detailed outline for this chapter with:
+
+1. **Opening Scene** ({{ (target_word_count * 0.15) | int }} words)
+   - Hook and atmosphere
+   - Character state/location
+
+2. **Rising Action** ({{ (target_word_count * 0.35) | int }} words)
+   - 2-3 key scenes
+   - Character interactions
+   - Conflict development
+
+3. **Climax/Peak** ({{ (target_word_count * 0.25) | int }} words)
+   - Main chapter event
+   - Highest tension point
+
+4. **Resolution** ({{ (target_word_count * 0.15) | int }} words)
+   - Immediate aftermath
+   - Character reactions
+
+5. **Closing/Transition** ({{ (target_word_count * 0.10) | int }} words)
+   - Setup for next chapter
+   - Cliffhanger or question
+
+Include specific plot points, dialogue moments, and pacing notes.
+
+Chapter {{ chapter_number }} Outline:

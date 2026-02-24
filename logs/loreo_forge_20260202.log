@@ -1,0 +1,5 @@
+2026-02-02 18:45:25 - DatabaseSchema - INFO - logger.py:67 - Logger initialized: DatabaseSchema
+2026-02-02 18:45:25 - DatabaseSchema - INFO - logger.py:118 - Master database schema created successfully
+2026-02-02 18:45:26 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
+2026-02-02 18:45:26 - LoreoForge - INFO - main.py:97 - Starting Loreo Forge application
+2026-02-02 18:45:31 - LoreoForge - INFO - main.py:172 - Application initialized successfully
