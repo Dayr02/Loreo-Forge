@@ -1,6 +1,0 @@
-2025-12-16 20:23:50 - OllamaClient - INFO - logger.py:67 - Logger initialized: OllamaClient
-2025-12-16 20:23:50 - OllamaClient - INFO - ollama_client.py:45 - OllamaClient initialized with base_url: http://localhost:11434
-2025-12-16 20:23:50 - LoreoForge - INFO - logger.py:67 - Logger initialized: LoreoForge
-2025-12-16 20:23:50 - LoreoForge - INFO - main.py:93 - Starting Loreo Forge application
-2025-12-16 20:23:54 - OllamaClient - INFO - ollama_client.py:68 - Ollama connection test successful
-2025-12-16 20:23:55 - LoreoForge - INFO - main.py:149 - Application initialized successfully

@@ -31,7 +31,7 @@ Package and directory overview (files included in this workspace)
   - `ollama_client.py` — Ollama HTTP client with streaming and retry logic.
   - `context_manager.py` — Builds and optimizes context pulled from the database for generation requests.
   - `prompt_builder.py` — Jinja2-based prompt templating and validation.
-  - `templates/` — Jinja2 templates: `chapter_generation.txt`, `outline_generation.txt`, `world_building.txt`.
+  - `templates/` — Jinja2 templates: `chapter_generation.txt`, `outline_generation.txt`, `world_building.txt`, `character_expansion.txt`.
 
 - `config/` — Settings and configuration
   - `__init__.py` — exposes `settings` instance.
