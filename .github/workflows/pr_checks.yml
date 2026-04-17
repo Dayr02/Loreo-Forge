@@ -1,0 +1,20 @@
+name: PR Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  validate-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate commit messages
+        run: python scripts/validate_pr.py --mode commits
+      - name: Validate tests and forbidden files
+        run: python scripts/validate_pr.py --mode files

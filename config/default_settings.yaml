@@ -1,6 +1,6 @@
 application:
   name: "Loreo Forge"
-  version: "1.0.0"
+  version: "2.0.0-alpha"
   
 startup:
   show_splash: true
@@ -70,3 +70,9 @@ export:
   default_format: "docx"
   include_metadata: true
   include_toc: true
+
+integration:
+  godot_executable_path: ""
+  bridge:
+    host: "127.0.0.1"
+    port: 27182

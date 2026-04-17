@@ -1,12 +1,8 @@
-"""
-Configuration Settings for Loreo Forge
-Handles application settings, paths, and environment configuration
-
-"""
+"""Configuration settings and path helpers for Loreo Forge."""
 
 import os
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 import yaml
 
 
@@ -18,7 +14,7 @@ class Settings:
     
     # Application metadata
     APP_NAME = "Loreo Forge"
-    APP_VERSION = "1.0.0"
+    APP_VERSION = "2.0.0-alpha"
     
     # Default settings
     DEFAULT_FONT_FAMILY = "Segoe UI"  # Default system font
@@ -65,6 +61,12 @@ class Settings:
         self.STORIES_DIR = self.DATA_DIR / "stories"
         self.LOGS_DIR = self.BASE_DIR / "logs"
         self.ASSETS_DIR = self.BASE_DIR / "assets"
+        self.BRIDGE_DIR = self.DATA_DIR / "bridge"
+        self.BRIDGE_OUTBOUND_DIR = self.BRIDGE_DIR / "outbound"
+        self.BRIDGE_INBOUND_DIR = self.BRIDGE_DIR / "inbound"
+        self.GAME_STATE_DIR = self.DATA_DIR / "game_state"
+        self.BACKUPS_DIR = self.DATA_DIR / "backups"
+        self.GODOT_PROJECT_DIR = self.BASE_DIR / "godot_project"
         
         # AI templates directory
         self.TEMPLATES_DIR = self.BASE_DIR / "ai" / "templates"
@@ -77,7 +79,17 @@ class Settings:
     
     def _create_directories(self):
         """Create necessary directories if they don't exist"""
-        for directory in [self.DATA_DIR, self.STORIES_DIR, self.LOGS_DIR, self.TEMPLATES_DIR]:
+        for directory in [
+            self.DATA_DIR,
+            self.STORIES_DIR,
+            self.LOGS_DIR,
+            self.TEMPLATES_DIR,
+            self.BRIDGE_OUTBOUND_DIR,
+            self.BRIDGE_INBOUND_DIR,
+            self.GAME_STATE_DIR,
+            self.BACKUPS_DIR,
+            self.GODOT_PROJECT_DIR,
+        ]:
             directory.mkdir(parents=True, exist_ok=True)
     
     def ensure_directories(self):
@@ -204,6 +216,18 @@ class Settings:
     def get_master_db_path(self) -> Path:
         """Get the master database path"""
         return self.DATA_DIR / "loreo_master.db"
+
+    @property
+    def godot_executable_path(self) -> str:
+        return self.get("integration.godot_executable_path", "")
+
+    @property
+    def bridge_host(self) -> str:
+        return self.get("integration.bridge.host", "127.0.0.1")
+
+    @property
+    def bridge_port(self) -> int:
+        return int(self.get("integration.bridge.port", 27182))
     
     def get_log_path(self, log_name: str = "loreo_forge.log") -> Path:
         """Get log file path"""

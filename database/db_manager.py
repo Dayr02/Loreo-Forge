@@ -240,6 +240,19 @@ class DatabaseManager(LoggerMixin):
             self.log_error(f"Failed to count entities in {table}: {e}")
             return 0
 
+    def get_schema_version(self, story_id: int) -> int:
+        conn = self.get_connection(story_id)
+        return self._schema.get_schema_version(conn)
+
+    def verify_chapter_sequence(self, story_id: int) -> Tuple[bool, List[int]]:
+        chapters = self.get_chapters(story_id)
+        numbers = sorted(chapter["chapter_number"] for chapter in chapters)
+        if not numbers:
+            return True, []
+        expected = list(range(numbers[0], numbers[-1] + 1))
+        missing = [number for number in expected if number not in numbers]
+        return len(missing) == 0, missing
+
     # ========================================================================
     # LEGACY CRUD (backward compatibility)
     # ========================================================================
@@ -766,6 +779,9 @@ class DatabaseManager(LoggerMixin):
             'chapter_versions',
             'timeline_states',
             'generation_history',
+            'generation_preferences',
+            'game_sessions',
+            'reader_books',
             'media_gallery',
             'character_relationships',
             'location_connections',

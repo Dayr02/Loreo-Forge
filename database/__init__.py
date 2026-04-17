@@ -19,7 +19,7 @@ __all__ = [
     'DatabaseManager',
     'db_manager',
     'MasterDatabase',
-    'master_db'
+    'master_db',
     'DatabaseError',
     'ConnectionError',
     'ValidationError',

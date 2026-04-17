@@ -1,0 +1,31 @@
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+include = "\\.pyi?$"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+py_version = 39
+
+[tool.flake8]
+max-line-length = 100
+extend-ignore = ["E203", "W503"]
+exclude = [
+  ".git",
+  "__pycache__",
+  ".pytest_cache",
+  "build",
+  "dist",
+  "godot_project/.godot",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+branch = true
+source = ["ai", "config", "controllers", "core", "database", "models", "ui", "utils"]
