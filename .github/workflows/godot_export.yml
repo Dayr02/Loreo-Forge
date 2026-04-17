@@ -1,0 +1,19 @@
+name: Godot Export Validation
+
+on:
+  push:
+    branches:
+      - develop
+      - "release/*"
+  pull_request:
+    branches: [main]
+
+jobs:
+  export-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Godot project scaffold
+        run: |
+          test -f godot_project/project.godot
+          echo "Godot scaffold present."

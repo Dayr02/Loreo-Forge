@@ -55,11 +55,11 @@ class MasterDatabase(LoggerMixin):
 
         # CREATE THE SCHEMA OBJECT
         schema = DatabaseSchema()
-        
-        if not schema.create_master_schema(self._connection):
-            raise Exception("Failed to create master database schema")
 
-        self.log_debug("Master database schema created")
+        if schema.create_master_schema(self._connection):
+            self.log_debug("Master database schema created")
+        else:
+            self.log_warning("Master database schema could not be updated; continuing with existing database state")
     
     def get_connection(self) -> sqlite3.Connection:
         """Get the master database connection"""

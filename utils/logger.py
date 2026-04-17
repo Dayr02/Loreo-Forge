@@ -50,10 +50,14 @@ def setup_logger(name: str = "LoreoForge", log_dir: str = "logs", level: int = l
     
     # File handler - with date in filename
     log_file = log_path / f"loreo_forge_{datetime.now().strftime('%Y%m%d')}.log"
-    file_handler = logging.FileHandler(log_file, encoding='utf-8')
-    file_handler.setLevel(logging.DEBUG)  # Log everything to file
-    file_handler.setFormatter(file_formatter)
-    logger.addHandler(file_handler)
+    try:
+        file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    except OSError:
+        file_handler = None
+    if file_handler is not None:
+        file_handler.setLevel(logging.DEBUG)  # Log everything to file
+        file_handler.setFormatter(file_formatter)
+        logger.addHandler(file_handler)
     
     # Console handler - only INFO and above
     console_handler = logging.StreamHandler(sys.stdout)
@@ -65,7 +69,8 @@ def setup_logger(name: str = "LoreoForge", log_dir: str = "logs", level: int = l
     _logger = logger
     
     logger.info(f"Logger initialized: {name}")
-    logger.debug(f"Log file: {log_file}")
+    if file_handler is not None:
+        logger.debug(f"Log file: {log_file}")
     
     return logger
 

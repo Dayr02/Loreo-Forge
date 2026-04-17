@@ -133,6 +133,7 @@ def main():
     print("\nChecking for database updates...")
     try:
         migration_results = db_migrator.check_and_migrate_all_stories()
+        db_migrator.migrate_master_database()
 
         if migration_results['migrated'] > 0:
             print(f"✓ Updated {migration_results['migrated']} story database(s)")

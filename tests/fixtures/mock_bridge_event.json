@@ -1,0 +1,6 @@
+{
+  "event_type": "xp_earned",
+  "payload": {
+    "amount": 25
+  }
+}
